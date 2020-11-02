@@ -1,0 +1,23 @@
+[08:44:31] [Server thread/INFO]: Zenthorrr issued server command: /help
+org.bukkit.command.CommandException: Unhandled exception executing command 'help' in plugin Essentials v2.18.1.31
+[08:44:31] [Server thread/ERROR]: null
+at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[PluginCommand.class:git-CatServer-1.12.2-fa590fd]
+at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:706) ~[CraftServer.class:git-CatServer-1.12.2-fa590fd]
+at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:142) ~[SimpleCommandMap.class:git-CatServer-1.12.2-fa590fd]
+at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:1593) [pa.class:?]
+at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:1438) [pa.class:?]
+at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_232]
+at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
+at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:841) [MinecraftServer.class:?]
+at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:778) [MinecraftServer.class:?]
+at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:472) [nz.class:?]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:632) [MinecraftServer.class:?]
+at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[PluginCommand.class:git-CatServer-1.12.2-fa590fd]
+at net.minecraft.util.Util.func_181617_a(Util.java:50) [h.class:?]
+Caused by: java.lang.NullPointerException
+at com.earth2me.essentials.Essentials.onCommand(Essentials.java:569) ~[?:?]
+... 15 more
